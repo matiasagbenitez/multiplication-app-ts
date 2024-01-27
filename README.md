@@ -41,3 +41,9 @@ Generar una tabla de multiplicar con base 5, límite 12, mostrar en consola y gu
 ```bash
 npx ts-node src/app -b 5 -l 12 -s -n mi-tabla -d resultados
 ```
+
+## Pruebas
+Para ejecutar las pruebas unitarias, utiliza el siguiente comando:
+
+```bash
+npm run test:watch
